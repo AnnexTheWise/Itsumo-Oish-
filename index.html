@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Restaurant Design</title>
+</head>
+<body>
+    <header class="header">
+        <div class="top-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <nav class="top-nav">
+                            <a href="#link" class="top-nav-item"><i class="bi bi-pinterest"></i></a>
+                            <a href="#link" class="top-nav-item"><i class="bi bi-facebook"></i></a>
+                            <a href="#link" class="top-nav-item"><i class="bi bi-twitter"></i></a>
+                            <a href="#link" class="top-nav-item"><i class="bi bi-instagram"></i></a>
+                            <a href="#link" class="top-nav-item"><i class="bi bi-linkedin"></i></a>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bottom-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <h1 class="restaurant-name">itsumo oishī</h1>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <nav class="bottom-nav">
+                            <a href="#link" class="bottom-nav-item">about</a>
+                            <a href="#link" class="bottom-nav-item">events</a>
+                            <a href="#link" class="bottom-nav-item">menu</a>
+                            <a href="#link" class="bottom-nav-item">gallery</a>
+                            <a href="#link" class="bottom-nav-item">contacts</a>
+                            <a href="#link" class="bottom-nav-item">blog</a>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="section section1">
+        <div class="top-section1-box">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <h6 class="section1-text">Top quality ingredients only in our kitchen!</h6>
+                    </div>
+                    <div class="col-12 col-md-6 justify-content-end search-bar">
+                        <input type="text" class="searchbar" placeholder="Search Here..."><button class="search-button"><i class="bi bi-search"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="carouselIndicators" class="carousel slide" data-bs-ride="true">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner carousel-box">
+              <div class="carousel-item active">
+                <img src="./media/sushi_1400x700.jpg" class="d-block sushi-img carousel-img img-fluid" alt="Sushi Plate image">
+              </div>
+              <div class="carousel-item">
+                <img src="./media/rice-balls_1_1400x700.jpg" class="d-block rice-balls-img carousel-img img-fluid" alt="Rice Balls Image">
+              </div>
+              <div class="carousel-item">
+                <img src="./media/steamed-pork-buns_1400x700.jpg" class="d-block pork-buns-img carousel-img img-fluid" alt="Pork Buns Image">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <!-- insert new carousel -->
+    </section>
+    <section class="section section2">
+        <!-- <div class="card-group"> -->
+            <div class="container">
+                <div class="row row-cols-1 row-cols-md-3 g-5 rowclass">
+                    <div class="col-md-4">
+                        <div class="card h-100 classname">
+                            <img src="./media/curry-rice.jpg" class="card-img-top img-fluid food-img" alt="Curry Rice">
+                            <div class="card-body">
+                                <h5 class="card-title section2-text">Curry Rice Options!</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card h-100 classname">
+                            <img src="./media/miso-soup.jpg" class="card-img-top img-fluid food-img" alt="Miso Soup">
+                            <div class="card-body">
+                                <h5 class="card-title section2-text">Soup menu!</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card h-100 classname">
+                            <img src="./media/Mitarashi-dango.jpg" class="card-img-top img-fluid food-img" alt="Mitarashi Dango">
+                            <div class="card-body">
+                                <h5 class="card-title section2-text">Appetizers menu!</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">   
+                        <div class="card h-100 classname">
+                            <img src="./media/katsudon.jpg"  class="card-img-top img-fluid food-img" alt="Katsudon">
+                            <div class="card-body">
+                                <h5 class="card-title section2-text">Katsudon Bowl List!</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card h-100 classname">
+                            <img src="./media/omurice.jpg" alt="Omurice" class="card-img-top img-fluid food-img">
+                            <div class="card-body">
+                                <h5 class="card-title section2-text">Checkout Our Home Cooked Omurice!</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card h-100 classname">
+                            <img src="./media/hamburg-steak.jpg" alt="Hamburg Steak" class="card-img-top img-fluid food-img">
+                            <h5 class="card-title section2-text">Take A Look At Our Menu!</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <!-- </div> -->
+    </section>
+    <section class="section section3">
+        <div class="container">
+            <h3 class="section3-header">Here's What Our Customers Have To Say!</h3>
+            <div class="row row-cols-1 row-col-sm-3 row-cols-md-3 g-5">
+                <div class="col-12 col-md-4">
+                    <h4 class="comment-header">Scout Cawthon</h4>
+                    <p class="comment-text">This food is amazing! Not only is it delicious, but its fairly priced as well! Its very affordable and definitely worth the time and money! their Katsudon is to die for! I could eat it for days on end! Awesome restaurant!</p>
+                </div>
+                <div class="col-12 col-md-4">
+                    <h4 class="comment-header">Tobias Foxx</h4>
+                    <p class="comment-text">I've never tasted anything similar to this! To have such delightful tasting food and great prices is very impressive! The appetizers were so enticing! I just knew I had to try their dango! The Omurice was incredible! Unlike anything I've ever tasted before! This place is outstanding and well worth the visit! </p>
+                </div>
+                <div class="col-12 col-md-4">
+                    <h4 class="comment-header">Lynette Dishman</h4>
+                    <p class="comment-text">I can't believe I didn't know about this place sooner! The Miso Soup, the Sushi Plate, the Rice Balls, all of it was so good and so affordable! I absolutely love this place! Next time I come here, I'm gonna invite all of my friends to experience this delightful restaurant! 10 ouf of 10! 5 stars! </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="top-footer">
+            <div class="container">
+                <div class="row row-cols-1 row-cols-md-3 g-5">
+                    <div class="col-12 col-md-4">
+                        <h5 class="footer-header">About Us</h5>
+                        <p class="footer-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum, nam ratione. Magni, odio ad quam architecto a quasi amet voluptate animi quaerat quia deleniti minus.</p>
+                        <p class="footer-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id eligendi natus doloremque voluptatibus qui iusto sequi in, corporis consectetur est a temporibus perferendis.</p>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <h5 class="footer-header">Our Services</h5>
+                        <p class="footer-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur nulla omnis corrupti tempore enim, voluptatibus magnam in repellat! Accusantium, nam.</p>
+                        <p class="footer-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos assumenda quo alias modi, veritatis nemo deleniti expedita totam, exercitationem vel tempora! Quod praesentium cum porro.</p>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <h5 class="footer-header">Contact Us</h5>
+                        <p class="footer-text">Our twitter is a place where we post any changes or new menu items on. We also occasionally post questions for our customers to answer. Check it out <a href="#link" class="footer-link">https://twitter.com/AnnexDevs</a></p>
+                        <p class="footer-text">Our email is <a href="#link" class="footer-link">james@mscodingacademies.org</a> corporation for any questions, comments, or concerns.</p>
+                        <p class="footer-text">Our Phone number to our customer support can be found <a href="#link" class="footer-link">here</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bottom-footer">
+            <div class="container">
+                <div class="row">
+                   <div class="col-12 col-md-6">
+                       <h4 class="restaurant-name">itsumo oishī</h4>
+                   </div> 
+                   <div class="col-12 col-md-6">
+                        <p class="bottom-footer-text">Created by &copy;AnnexDevelopment 2022 Privacy Policy</p>
+                   </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
