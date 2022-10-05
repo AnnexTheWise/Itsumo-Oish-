@@ -9,7 +9,8 @@
 }
 
 .top-nav {
-    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .top-nav-item {
@@ -20,6 +21,13 @@
 
 .restaurant-name {
     color: #f5f3f4;
+    text-transform: uppercase;
+}
+
+.menu-btn {
+    background-color: #e5383b;
+    border: none;
+    font-size: 20px;
     text-transform: uppercase;
 }
 
